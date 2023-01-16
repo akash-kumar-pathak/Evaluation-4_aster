@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* List1.module.css 
+.list1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* List2.module.css */
+/*.list2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  align:right;
+  float: right;
+
+}  */
+
+.clock {
+  display: flex;
+  align-items: center; /* center vertically */
+  justify-content: center; /* center horizontally */
+}
+
+/* Left-align list and right-align the components within their parent container*/
+.list,
+.components {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.list {
+  text-align: left;
+}
+
+.components {
+  text-align: right;
+}
+
+/* Style the components */
+.components button {
+  margin-left: 10px;
+}
